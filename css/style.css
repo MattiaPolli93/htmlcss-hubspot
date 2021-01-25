@@ -5,8 +5,18 @@
   box-sizing: border-box;
 }
 
+.main-box {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .clearfix::after {
   content: "";
   display: block;
   clear: both;
+}
+
+/* Header */
+.wrapper {
+  width: 75%;
+  margin: 0 auto;
 }
