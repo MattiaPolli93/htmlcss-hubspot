@@ -7,6 +7,12 @@
 
 .main-box {
   font-family: 'Montserrat', sans-serif;
+  color: #33475b;
+}
+
+.wrapper {
+  width: 75%;
+  margin: 0 auto;
 }
 
 .clearfix::after {
@@ -16,7 +22,73 @@
 }
 
 /* Header */
-.wrapper {
-  width: 75%;
-  margin: 0 auto;
+/* Upper Navbar  */
+.upper-navbar-container {
+  background-color: #eefeff;
 }
+
+.upper-navbar ul {
+  display: inline-block;
+  margin: 30px 0;
+}
+
+.list-position {
+  float: left;
+  width: 50%;
+}
+
+.left {
+  color: inherit;
+}
+
+.right {
+  text-align: right;
+}
+
+.upper-navbar li {
+  display: inline-block;
+  list-style: none;
+}
+
+#left-option {
+  border-right: 1px solid #000;
+  margin-right: 20px;
+}
+
+.upper-navbar li a {
+  text-decoration: none;
+  /* color: #33475b; */
+}
+
+#globe {
+  margin-right: 5px;
+}
+
+#arrow-down {
+  margin: 0 15px 0 5px;
+}
+
+.right li {
+  margin-left: 30px;
+}
+
+/* Buttons */
+.btn {
+  color: #fff;
+  background-color: #ffbcac;
+  border: 1px solid #ffbcac;
+  border-radius: 5px;
+  padding: 12px;
+  font-weight: 600;
+}
+
+.btn-white {
+  color: #ffbcac;
+  background-color: #fff;
+}
+
+.btn-orange {
+  background-color: #ffbcac;
+}
+
+/* Main Navbar */
