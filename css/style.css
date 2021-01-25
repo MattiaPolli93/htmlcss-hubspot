@@ -22,12 +22,13 @@
 }
 
 /* Header */
-/* Upper Navbar  */
+/* Upper Navbar */
 .upper-navbar-container {
   background-color: #eefeff;
 }
 
-.upper-navbar ul {
+.upper-navbar ul,
+.main-navbar ul {
   display: inline-block;
   margin: 30px 0;
 }
@@ -37,15 +38,16 @@
   width: 50%;
 }
 
-.left {
-  color: inherit;
+.left a {
+  color: #33475b;
 }
 
 .right {
   text-align: right;
 }
 
-.upper-navbar li {
+.upper-navbar li,
+.main-navbar li {
   display: inline-block;
   list-style: none;
 }
@@ -55,9 +57,9 @@
   margin-right: 20px;
 }
 
-.upper-navbar li a {
+.upper-navbar li a,
+.main-navbar li a {
   text-decoration: none;
-  /* color: #33475b; */
 }
 
 #globe {
@@ -72,11 +74,15 @@
   margin-left: 30px;
 }
 
+#search {
+  color: #22bec7;
+}
+
 /* Buttons */
 .btn {
   color: #fff;
   background-color: #ffbcac;
-  border: 1px solid #ffbcac;
+  border: 2px solid #ffbcac;
   border-radius: 5px;
   padding: 12px;
   font-weight: 600;
@@ -92,3 +98,32 @@
 }
 
 /* Main Navbar */
+#logo {
+  margin: 20px 0;
+  position: relative;
+  float: left;
+}
+
+.second-right-list {
+  float: left;
+  position: absolute;
+  width: 55%;
+  right: 0;
+}
+
+.second-right-list li {
+  padding-right: 12px;
+}
+
+.second-right-list li a {
+  font-size: 15px;
+  color: inherit;
+}
+
+.arrow-down {
+  margin-right: 25px;
+}
+
+#last-arrow {
+  margin-left: 15px;
+}
