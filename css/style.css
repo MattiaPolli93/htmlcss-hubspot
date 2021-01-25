@@ -173,6 +173,22 @@ h1 {
 background-color: #f5f8fa;
 }
 
-.row {
-  /* height: 100px; */
+/* Row with cube image */
+
+.first-row {
+  text-align: center;
+}
+
+.first-row img {
+  height: 200px;
+  margin-top: 40px;
+}
+
+.first-row h2 {
+  margin: 5px 0 20px;
+}
+
+.first-row p {
+  width: 70%;
+  margin: auto auto 20px;
 }
