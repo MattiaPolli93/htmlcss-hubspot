@@ -13,12 +13,17 @@
 .wrapper {
   width: 75%;
   margin: 0 auto;
+  position: relative;
 }
 
 .clearfix::after {
   content: "";
   display: block;
   clear: both;
+}
+
+p {
+  line-height:25px;
 }
 
 /* Header */
@@ -58,7 +63,8 @@
 }
 
 .upper-navbar li a,
-.main-navbar li a {
+.main-navbar li a,
+.main-title a {
   text-decoration: none;
 }
 
@@ -81,20 +87,16 @@
 /* Buttons */
 .btn {
   color: #fff;
-  background-color: #ffbcac;
-  border: 2px solid #ffbcac;
+  background-color: #ff7a59;
+  border: 2px solid #ff7a59;
   border-radius: 5px;
   padding: 12px;
   font-weight: 600;
 }
 
 .btn-white {
-  color: #ffbcac;
+  color: #ff7a59;
   background-color: #fff;
-}
-
-.btn-orange {
-  background-color: #ffbcac;
 }
 
 /* Main Navbar */
@@ -112,7 +114,7 @@
 }
 
 .second-right-list li {
-  padding-right: 12px;
+  padding-right: 10px;
 }
 
 .second-right-list li a {
@@ -121,9 +123,56 @@
 }
 
 .arrow-down {
-  margin-right: 25px;
+  margin-right: 20px;
 }
 
 #last-arrow {
   margin-left: 15px;
+}
+
+/* Main sections */
+/* Jumbotron */
+#jumbotron {
+  height: 550px;
+  background-color: #fff2ee;
+  background-image: url(../img/jumbotron.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100px;
+}
+
+.main-title {
+  float: left;
+  position: absolute;
+  width: 50%;
+  transform: translateY(10%);
+}
+
+h1 {
+  font-size: 45px;
+  margin: 25px 0;
+}
+
+#jumbotron-btn {
+  display: inline-block;
+  margin: 25px 0;
+}
+
+#jumbotron-bottom-text {
+  font-size: 12px;
+}
+
+/* Colored box */
+#lightblue-section {
+  height: 70px;
+  background-color: #afebe4;
+}
+
+/* Section with columns */
+#columns-section {
+background-color: #f5f8fa;
+}
+
+.row {
+  /* height: 100px; */
 }
