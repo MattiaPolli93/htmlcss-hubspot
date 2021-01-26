@@ -26,6 +26,11 @@ p {
   line-height: 25px;
 }
 
+li {
+  list-style: none;
+  display: inline-block;
+}
+
 a {
   text-decoration: none;
 }
@@ -55,11 +60,6 @@ a {
   text-align: right;
 }
 
-.upper-navbar li,
-.main-navbar li {
-  display: inline-block;
-  list-style: none;
-}
 
 #left-option {
   border-right: 1px solid #000;
@@ -193,31 +193,64 @@ h1 {
 
 /* HubSpot row */
 .hubspot-row {
-  height: 350px;
+  height: 300px;
   background-color: #fff;
-  box-shadow: 2px 2px 5px #000;
+  box-shadow: 3px 3px 3px 3px #b3b3b3;
   border-radius: 5px;
   position: relative;
-}
-
-.left-hubspot-row {
-  height: 200px;
-  width: 30%;
-  float: left;
-}
-
-.left-hubspot-row img {
-  height: 150px;
-}
-
-.right-hubspot-row {
-  float: right;
-  width: 70%;
-  top: 50%;
+  padding: 70px 0;
+  margin-top: 40px;
 }
 
 .left-hubspot-row,
 .right-hubspot-row {
-  text-align: center;
-  position: absolute;
+  float: left;
 }
+
+.left-hubspot-row {
+  text-align: center;
+  width: 30%;
+  padding-left: 80px;
+}
+
+.left-hubspot-row img {
+  height: 130px;
+  margin-bottom: 30px;
+}
+
+.right-hubspot-row {
+  width: 50%;
+  margin-left: 60px;
+}
+
+.right-hubspot-row h3 {
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+.right-hubspot-row h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 28px 0;
+}
+
+.right-hubspot-row hr {
+  width: 310px;
+  margin-left: 45px;
+}
+
+.right-hubspot-row h4,
+.right-hubspot-row hr {
+  display: inline-block;
+}
+
+.right-hubspot-row li {
+  margin-right: 25px;
+}
+
+.check {
+  color: #ff7a59;
+  margin-right: 15px;
+}
+
+/* Three-column row */
