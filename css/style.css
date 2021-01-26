@@ -311,7 +311,7 @@ a {
 }
 
 .title {
-  padding: 35px 5px;
+  padding: 40px 5px;
 }
 
 .title p {
@@ -325,9 +325,8 @@ a {
   border-right: 1.5px solid #fff;
 }
 
-/* ! Failed attempt */
-.grid-itemp:nth-child(3n+0) {
-  background-color: red;
+.grid-item:nth-child(4n+0) {
+  border-right: none;
 }
 
 .up {
@@ -338,10 +337,6 @@ a {
   padding-top: 40px;
 }
 
-.grid-item img {
-  /* text-align: center; */
-}
-
 .grid-item p {
   font-size: 35px;
 }
@@ -350,15 +345,6 @@ a {
 .grid-item h5,
 .grid-item p {
   padding-bottom: 40px;
-}
-
-.grid-item:not(last-child) {
-  border-right: 1.5px solid #fff;
-
-}
-
-.rightmost {
-  border-right: ;
 }
 
 .bigger-numbers {
