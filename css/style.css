@@ -164,7 +164,7 @@ a {
   transform: translateY(20%);
 }
 
-#jumbotron-bottom-text {
+.small-paragraph {
   font-size: 12px;
 }
 
@@ -311,7 +311,7 @@ a {
 }
 
 .title {
-  padding: 40px 5px;
+  padding: 50px 5px;
 }
 
 .title p {
@@ -351,4 +351,64 @@ a {
   vertical-align: middle;
   font-size: 40px;
   font-weight: 700;
+}
+
+/* Last section */
+#last-section {
+  height: 700px;
+  /* text-align: left; */
+}
+
+.upper-left {
+  float: left;
+  width: 25%;
+  margin-left: 80px;
+}
+
+.upper-left h2 {
+  font-size: 50px;
+  margin: 40px auto;
+}
+
+.upper-right {
+  position: absolute;
+  right: 5%;
+  top: 35%;
+  float: left;
+  width: 45%;
+  margin-left: 100px;
+}
+
+.upper-right img {
+  height: 20px;
+  margin: 15px 10px;
+  width: 80px;
+}
+
+.lower-part {
+  margin: 80px auto;
+}
+
+.lower-left {
+  width: 30%;
+  float: left;
+}
+
+.lower-left h3 {
+  margin-bottom: 30px;
+}
+
+.lower-left a {
+  margin: 35px auto;
+}
+
+.lower-right {
+  width: 30%;
+  float: right;
+  position: absolute;
+  right: 0;
+}
+
+.lower-right img {
+  height: 320px;
 }
