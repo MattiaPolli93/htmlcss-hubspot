@@ -22,6 +22,15 @@
   clear: both;
 }
 
+h1 {
+  font-size: 45px;
+  margin: 25px 0;
+}
+
+h2 {
+  font-size: 30px;
+}
+
 p {
   line-height: 25px;
 }
@@ -155,11 +164,6 @@ a {
   transform: translateY(20%);
 }
 
-h1 {
-  font-size: 45px;
-  margin: 25px 0;
-}
-
 #jumbotron-bottom-text {
   font-size: 12px;
 }
@@ -200,7 +204,7 @@ h1 {
 .hubspot-row,
 .column {
   background-color: #fff;
-  box-shadow: 3px 3px 3px 3px #b3b3b3;
+  box-shadow: 3px 3px 3px 1px #b3b3b3;
   border-radius: 5px;
   position: relative;
 }
@@ -268,6 +272,7 @@ h1 {
   text-align: center;
   width: calc((100% / 3) - 40px);
   padding: 20px 22px;
+  margin-bottom: 40px;
 }
 
 .picture-box img {
@@ -289,6 +294,75 @@ h1 {
   margin-left: 25px;
 }
 
+.column .btn {
+  margin-top: 40px;
+}
+
 #center-column {
   margin: 0 60px;
+}
+
+/* Blue grid section */
+#blue-grid {
+  height: 800px;
+  color: #fff;
+  text-align: center;
+  background-image: linear-gradient(45deg, #00a4bd, #00bda5)
+}
+
+.title {
+  padding: 35px 5px;
+}
+
+.title p {
+  margin: 40px auto;
+}
+
+/* Two-row, four-column grid */
+.grid-item {
+  width: 25%;
+  float: left;
+  border-right: 1.5px solid #fff;
+}
+
+/* ! Failed attempt */
+.grid-itemp:nth-child(3n+0) {
+  background-color: red;
+}
+
+.up {
+  border-bottom: 1.5px solid #fff;
+}
+
+.down {
+  padding-top: 40px;
+}
+
+.grid-item img {
+  /* text-align: center; */
+}
+
+.grid-item p {
+  font-size: 35px;
+}
+
+.grid-item img,
+.grid-item h5,
+.grid-item p {
+  padding-bottom: 40px;
+}
+
+.grid-item:not(last-child) {
+  border-right: 1.5px solid #fff;
+
+}
+
+.rightmost {
+  border-right: ;
+}
+
+.bigger-numbers {
+  vertical-align: middle;
+  font-size: 40px;
+  font-weight: 700;
 }
