@@ -23,7 +23,11 @@
 }
 
 p {
-  line-height:25px;
+  line-height: 25px;
+}
+
+a {
+  text-decoration: none;
 }
 
 /* Header */
@@ -60,12 +64,6 @@ p {
 #left-option {
   border-right: 1px solid #000;
   margin-right: 20px;
-}
-
-.upper-navbar li a,
-.main-navbar li a,
-.main-title a {
-  text-decoration: none;
 }
 
 #globe {
@@ -132,20 +130,19 @@ p {
 
 /* Main sections */
 /* Jumbotron */
-#jumbotron {
-  height: 550px;
+.background-image {
+  height: 610px;
   background-color: #fff2ee;
   background-image: url(../img/jumbotron.png);
-  background-size: cover;
+  background-position: 120px 0;
   background-repeat: no-repeat;
-  background-position: 100px;
 }
 
 .main-title {
   float: left;
   position: absolute;
   width: 50%;
-  transform: translateY(10%);
+  transform: translateY(20%);
 }
 
 h1 {
@@ -162,19 +159,20 @@ h1 {
   font-size: 12px;
 }
 
-/* Colored box */
-#lightblue-section {
+/* Colored banner */
+.lightblue-banner {
   height: 70px;
-  background-color: #afebe4;
+  background-color: #86e1d6;
+  border-top: 3px solid #007a8c;
+  border-bottom: 3px solid #007a8c;
 }
 
 /* Section with columns */
 #columns-section {
-background-color: #f5f8fa;
+  background-color: #f5f8fa;
 }
 
 /* Row with cube image */
-
 .first-row {
   text-align: center;
 }
@@ -189,6 +187,37 @@ background-color: #f5f8fa;
 }
 
 .first-row p {
+  width: 80%;
+  margin: 0 auto 20px;
+}
+
+/* HubSpot row */
+.hubspot-row {
+  height: 350px;
+  background-color: #fff;
+  box-shadow: 2px 2px 5px #000;
+  border-radius: 5px;
+  position: relative;
+}
+
+.left-hubspot-row {
+  height: 200px;
+  width: 30%;
+  float: left;
+}
+
+.left-hubspot-row img {
+  height: 150px;
+}
+
+.right-hubspot-row {
+  float: right;
   width: 70%;
-  margin: auto auto 20px;
+  top: 50%;
+}
+
+.left-hubspot-row,
+.right-hubspot-row {
+  text-align: center;
+  position: absolute;
 }

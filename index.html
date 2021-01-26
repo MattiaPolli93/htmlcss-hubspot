@@ -15,8 +15,8 @@
       <header>
         <!-- Navbars -->
         <div class="upper-navbar-container">
-          <div class="wrapper">
-              <nav class="upper-navbar clearfix">
+              <nav class="upper-navbar wrapper clearfix">
+                
                 <!-- On-the-left list -->
                 <ul class="list-position left">
                   <li><a id="left-option" href="#"><i id="globe" class="fas fa-globe-europe"></i> English <i id="arrow-down" class="fas fa-chevron-down"></i></a></li>
@@ -30,7 +30,6 @@
                   <li><a class="btn" href="#">GetHubspotFree</a></li>
                 </ul>
               </nav>
-          </div>
         </div>
 
       <hr>
@@ -53,24 +52,23 @@
 
       <!-- Main sections -->
       <main>
-        <section id="jumbotron">
-          <div class="wrapper clearfix">
-            <div class="main-title">
-              <h1>There's a better way to grow</h1>
-              <p>Marketing, sales, and service software that helps your business grow without compromise. Because "good for the business" should also mean "good for the customer".</p>
-              <a href="#" id="jumbotron-btn" class="btn">GetHubspotFree</a>
-              <p id="jumbotron-bottom-text">Get started with FREE tools, and upgrade as you grow.</p>
-            </div>
-          </div>
-        </section>
-
-        <hr>
-
-        <section id="lightblue-section"></section>
-
+        <div class="background-image">
+          <!-- Jumbotron -->
+          <section id="jumbotron" class="wrapper clearfix">
+              <div class="main-title">
+                <h1>There's a better way to grow</h1>
+                <p>Marketing, sales, and service software that helps your business grow without compromise. Because "good for the business" should also mean "good for the customer".</p>
+                <a href="#" id="jumbotron-btn" class="btn">GetHubspotFree</a>
+                <p id="jumbotron-bottom-text">Get started with FREE tools, and upgrade as you grow.</p>
+              </div>
+          </section>
+        </div>
+        
+          <!-- Colored banner -->
+          <div class="lightblue-banner"></div>
+        
         <!-- Section with columns -->
-        <section id="columns-section">
-          <div class="wrapper">
+        <section id="columns-section" class="wrapper clearfix">
 
             <!-- Row with cube image -->
             <div class="first-row">
@@ -78,14 +76,27 @@
               <h2>Powerful Alone. Better Together</h2>
               <p>HubSpot offers a full stack of software for marketing, sales, and customer service, with a completely free CRM at its core. They're powerful alone - but even better when used together.</p>
             </div>
-          </div>
+
+            <!-- HubSpot row -->
+          <div class="wrapper clearfix">  
+            <div class="hubspot-row">
+              <div class="left-hubspot-row">
+                <img src="img/CRM-Illustration.svg" alt="Free HubSpot CRM">
+                <a class="btn" href="#">Learn More</a>
+              </div>
+
+              <div class="right-hubspot-row">
+                <h3>Free HubSpot CRM</h3>  
+              </div>
+            </div> 
+          </div>     
         </section>
 
       </main>
 
       <!-- Footer -->
       <footer>
-
+       
       </footer>
     </div>
   </body>
