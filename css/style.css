@@ -123,10 +123,7 @@ a {
 }
 
 .second-right-list {
-  float: left;
-  position: absolute;
-  width: 55%;
-  right: 0;
+  float: right;
 }
 
 .second-right-list li {
