@@ -42,6 +42,7 @@ li {
 
 a {
   text-decoration: none;
+  display: inline-block;
 }
 
 /* Header */
@@ -55,19 +56,22 @@ a {
   margin: 30px 0;
 }
 
-.list-position {
+.left {
   float: left;
-  width: 50%;
 }
 
 .left a {
   color: #33475b;
+  margin-top: 15px;
 }
 
 .right {
-  text-align: right;
+  float: right;
 }
 
+.right ul a {
+  color: #ff7a59;
+}
 
 #left-option {
   border-right: 1px solid #000;
